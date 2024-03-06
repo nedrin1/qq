@@ -2,5 +2,8 @@
 using namespace std
 
 int main(){
-    cout << "Hello world" << endl;
+    char* username;
+    cout << "Enter user name\n";
+    cin << username;
+    cout << "Hello world from " << username << endl;
 }
